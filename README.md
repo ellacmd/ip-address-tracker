@@ -30,8 +30,8 @@ Users should be able to:
 ![](./screenshot.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/ip-address-tracker-built-with-react-B1ZfsKBV9)
+- Live Site URL: (https://subtle-dodol-762a89.netlify.app/)
 
 ## My process
 
@@ -46,6 +46,7 @@ Users should be able to:
 - A REST API
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ellacmd](https://www.frontendmentor.io/profile/ellacmd)
 - Twitter - [@chessncode](https://www.twitter.com/chessncode)
+- LinkedIn - (https://www.linkedin.com/in/emmanuella-trust-enomah-b95841122/)
 
