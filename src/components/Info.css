@@ -1,0 +1,22 @@
+.info {
+  width: 213px;
+  height: 37px;
+  text-align: left;
+ word-wrap: break-word;
+ 
+  height: 77px;
+}
+p {
+  font-weight: 700;
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+  padding-bottom: 13px;
+  line-height: 14.22px;
+  letter-spacing: 1.75px;
+}
+.info h2 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+}
+
