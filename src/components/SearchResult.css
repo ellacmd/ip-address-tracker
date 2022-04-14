@@ -23,7 +23,7 @@
 @media screen and (max-width: 1110px) {
   .search-result {
     flex-direction: column;
-    height: 294px;
+    height: 300px;
     width: 280px;
     gap: 20px;
     padding: 10px 0;
