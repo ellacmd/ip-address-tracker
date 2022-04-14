@@ -19,6 +19,7 @@ function App() {
         const response = await fetch(
           'https://geo.ipify.org/api/v2/country,city?apiKey=at_a6FbZpm5swm7NjM6iwkzSkxxM2RQ2'
         );
+
         const data = await response.json();
         setIpDetails(data);
       } catch (error) {
@@ -30,21 +31,20 @@ function App() {
 
   const searchHandler = (e) => {
     e.preventDefault();
-    
+
     const fetchIPAddressData = async () => {
       try {
         await fetch(
-          
           `https://geo.ipify.org/api/v2/country,city?apiKey=at_a6FbZpm5swm7NjM6iwkzSkxxM2RQ2&ipAddress=${searchQuery}&domain=${searchQuery}`
-          
         );
 
         const response = await fetch(
           `https://geo.ipify.org/api/v2/country,city?apiKey=at_a6FbZpm5swm7NjM6iwkzSkxxM2RQ2&ipAddress=${searchQuery}&domain=${searchQuery}`
         );
+
         const data = await response.json();
-        setIpDetails(data);
-        if (data.status === 'fail') {
+        console.log(data);
+        if (data.code === 422) {
           setError(true);
         } else {
           setIpDetails(data);
